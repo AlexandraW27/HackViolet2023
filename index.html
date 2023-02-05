@@ -1,1 +1,43 @@
-<h1>Hi!</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/83080b943a.js" crossorigin="anonymous"></script>
+    <title>VioletHub</title>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <i class="menu fa-solid fa-bars"></i>
+        <h1 class="title">VioletHub.com</h1>
+    </nav>
+
+    <!-- Navigation Links -->
+    <ul class="nav-list">
+        <li><a href="index.html"><i class="nav-icon fa-solid fa-house"></i> Home</a></li>
+        <li><a href="Downtime.html"><i class="nav-icon fa-solid fa-puzzle-piece"></i>Downtime</a></li>   
+        <li><a href="educationalResources.html"><i class="nav-icon fa-solid fa-school"></i>Education</a></li>
+    </ul>
+
+    <!-- centered row with study room and timer -->
+    <div class="center-flex">
+        <!-- <div class="study-room"></div> -->
+        <img class="study-img" alt="Witch Study Room" src="images/DarkStudyRoom.jpg"/>
+        <div class="timer-slot">
+            <h2 id="timer">1:00</h2>
+            <button type="button" class="startButton" onclick="startTime()">POMODORO</button>
+        </div>
+    </div>
+
+    <i class="fa-solid fa-palette"></i>
+  
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <script src="timers.js"></script>
+    <audio class="study-audio" src="audio/OSB_Vid_Music.m4a" autoplay loop></audio>
+</body>
+</html>

@@ -1,1 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Nunito&family=Poppins:wght@300&family=Rajdhani:wght@500&display=swap');
+
+/* Reset default code */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background-color: #00005C;
+  color: #F0CAA3;
+  font-family: 'Poppins', sans-serif;;
+}
+
+nav {
+  font-family: 'Libre Baskerville', serif;
+  background-color: #3B185F;
+  /* Flexbox Spacing */
+  display: flex;
+  align-items: center;
+  /* Regular Spacing */
+  width: 100%;
+  padding: 10px;
+}
+
+article {
+    width: 60%;
+    margin: auto;
+    background-color: #160e1c;
+    color: #fce6cf;
+    padding: 30px 20px;
+    margin-top: 5px;
+}
+
+header {
+    font-size: 2rem;
+}
+
+.author {
+    font-size: 1rem;
+}
+
+.nav-list {
+    background-color: #512082;
+    list-style-type: none;
+    /* Spacing */
+    height: 100vh;
+    padding: 10px 20px;
+    position: fixed;
+    /* Text */
+    font-size: 1.5rem;
+    line-height: 2.5;
+}
+
+.nav-icon {
+    font-size: 2rem;
+    margin: 0;
+    margin-right: 10px;
+}
+
+.nav-list li a {
+    width: 100%;
+    height: 100%;
+    /* Don't change link color */
+    color: inherit;
+    text-decoration: none;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.header-link {
+    font-size: 1.1rem;
+}
+
+i {
+    margin-left: 10px;
+    margin-right: 20px;
+    font-size: 2rem;
+}
+
+.game-list {
+    width: 60%;
+    margin: auto;
+}
+
+.game-thumbnail {
+    margin: 15px;
+}
+
+.game {
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+}
+
+/* flexbox for the study room and timer divs */
+.center-flex {
+    height: 480px;
+    display: flex;
+    justify-content: center;
+}
+
+.study-room {
+    background-color: white;
+    border-radius: 20px;
+    width: 50%;
+    margin: 20px;
+}
+
+.study-img {
+    border-radius: 20px;
+    width: 50%;
+    margin: 20px;
+}
+
+.timer-slot {
+    background-color: rgb(73, 45, 50);
+    border-radius: 19px;
+    margin: 20px;
+    width: 20%;
+    text-align: center;
+}
+
+#timer {
+    /*border: 1px solid red;*/
+    color: rgb(92, 128, 92);
+    text-shadow: 2px 2px rgb(63, 87, 63);
+    border: 2rem solid rgb(73, 45, 50);
+    border-radius: 17px 17px 0px 0px;
+    background-color: rgb(83, 89, 67);
+    height: 80%;
+    text-align: center;
+    padding-top: 7rem;
+    font-size: 2.8rem;
+    font-family: 'Arvo', serif;
+}
+
+.startButton {
+    border: 0.3rem solid rgb(59, 37, 41);
+    border-left-color: rgb(40, 27, 27);
+    border-top-color: rgb(40, 27, 27);
+    padding: 1rem;
+    background-color: rgb(73, 45, 50);
+    color: rgb(94, 71, 75);
+    font-weight: 800;
+    font-size: 1rem;
+}
+
+.startButton:active {
+    background-color: rgb(94, 71, 75);
+    color: rgb(59, 37, 41);
+}
+/* fixed icon to change the color scheme at any time */
+.fa-palette {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+h1 {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+/* ALTERNATIVE COLOR PALETTE */
+
+.bright-body {
+    background-color: #F9F2ED;
+    color: black;
+}
+
+.bright-nav {
+    background-color: #F87474;
+}
+
+.bright-article {
+    background-color: #fab7a2;
+    color: black;
+}
+
+.bright-nav-list {
+    background-color: #fc9f9f;
+}
+
+.bright-div {
+    background-color: #bab6b3;
+}
+
+.bright-timer {
+    background-color: rgb(201, 123, 102);
+}
+.bright-button {
+    background-color: rgb(201, 123, 102);
+    border: 0.3rem solid rgb(113, 72, 61);
+    border-left-color: rgb(68, 45, 38);
+    border-top-color: rgb(68, 45, 38);
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+
+
 
